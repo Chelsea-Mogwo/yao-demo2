@@ -1,0 +1,100 @@
+:root {
+    --primary-blue: #a9cef4;
+    --secondary-blue: #7ea0b7;
+    --primary-grey: #36494e;
+    --secondary-grey: #597081;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #A9CEF4;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap; 
+    padding: 0 20px;
+}
+
+nav a {
+    color:black;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #313639;
+}
+
+.current-song {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap; 
+    padding: 0 20px;
+    background-color: #313639;
+    border-radius: 10px;
+    color: whitesmoke;
+    border-top: 1px solid black;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.song-list {
+    background-color: #313639;
+    height: 60vh;
+    color: whitesmoke;
+    border-radius: 10px 10px 0 0;
+    padding: 20px 50px;
+}
+
+section p {
+    min-height: 10vh;
+    border-bottom: 1px solid #202224;
+    display: flex;
+    align-items: center;
+}
+
+section p i {
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.fa-thumbs-up {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
